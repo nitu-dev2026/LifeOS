@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LifeOS | Your Digital Universe</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+
+        <div class="logo">
+            🌌 <span>LifeOS</span>
+        </div>
+
+        <nav>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#study">Study</a>
+            <a href="#career">Career</a>
+            <a href="#mind">Mind</a>
+            <a href="#projects">Projects</a>
+        </nav>
+
+        <div class="profile">
+            👤
+        </div>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+    <main>
+
+        <!-- ================= HERO / DASHBOARD ================= -->
+        <section id="dashboard" class="hero">
+
+            <div class="hero-text">
+
+                <p class="small-title">YOUR DIGITAL UNIVERSE</p>
+
+                <h1>
+                    Welcome to <span>LifeOS</span> 👋
+                </h1>
+
+                <p>
+                    Organize your goals, studies, skills and projects
+                    in one place.
+                </p>
+
+            </div>
+
+
+            <!-- LEVEL CARD -->
+            <div class="level-card">
+
+                <div class="level-top">
+                    <span>LEVEL</span>
+                    <strong id="level">01</strong>
+                </div>
+
+                <div class="xp-info">
+                    <span>XP</span>
+                    <span id="xp">0 / 100</span>
+                </div>
+
+                <div class="progress-bar">
+                    <div id="xp-progress"></div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= LIFE AREAS ================= -->
+        <section class="life-areas">
+
+            <h2>Your Life Areas</h2>
+
+            <div class="area-container">
+
+                <!-- STUDY -->
+                <div class="area-card study-card" id="study">
+
+                    <div class="icon">
+                        📚
+                    </div>
+
+                    <h3>Study</h3>
+
+                    <p>
+                        Track subjects, topics and study progress.
+                    </p>
+
+                    <div class="mini-progress">
+                        <div style="width: 70%;"></div>
+                    </div>
+
+                    <span>70% Progress</span>
+
+                </div>
+
+
+                <!-- CAREER -->
+                <div class="area-card career-card" id="career">
+
+                    <div class="icon">
+                        💻
+                    </div>
+
+                    <h3>Career</h3>
+
+                    <p>
+                        Build skills, projects and career goals.
+                    </p>
+
+                    <div class="mini-progress">
+                        <div style="width: 45%;"></div>
+                    </div>
+
+                    <span>45% Progress</span>
+
+                </div>
+
+
+                <!-- MIND -->
+                <div class="area-card mind-card" id="mind">
+
+                    <div class="icon">
+                        🧠
+                    </div>
+
+                    <h3>Mind Space</h3>
+
+                    <p>
+                        Record thoughts, feelings and daily reflections.
+                    </p>
+
+                    <div class="mini-progress">
+                        <div style="width: 80%;"></div>
+                    </div>
+
+                    <span>80% Progress</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= TODAY'S MISSION ================= -->
+        <section class="mission-section">
+
+            <div class="mission-card">
+
+                <div class="mission-icon">
+                    🎯
+                </div>
+
+                <div class="mission-content">
+
+                    <p class="small-title">
+                        TODAY'S MISSION
+                    </p>
+
+                    <h2 id="mission-text">
+                        Complete your first LifeOS task
+                    </h2>
+
+                    <p>
+                        Complete your mission and earn XP.
+                    </p>
+
+                </div>
+
+                <button id="mission-btn">
+                    Complete Mission
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= QUICK ACTIONS ================= -->
+        <section class="quick-section">
+
+            <h2>Quick Actions</h2>
+
+            <div class="quick-container">
+
+                <button class="quick-card">
+                    📚
+                    <span>Add Study Task</span>
+                </button>
+
+                <button class="quick-card">
+                    🎯
+                    <span>Add Goal</span>
+                </button>
+
+                <button class="quick-card">
+                    💻
+                    <span>Add Skill</span>
+                </button>
+
+                <button class="quick-card">
+                    🚀
+                    <span>Add Project</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+        <section id="projects" class="projects-section">
+
+            <div class="section-heading">
+
+                <div>
+                    <p class="small-title">PROJECT LAB</p>
+                    <h2>Your Projects</h2>
+                </div>
+
+                <button id="add-project">
+                    + Add Project
+                </button>
+
+            </div>
+
+
+            <div class="project-container">
+
+                <div class="project-card">
+
+                    <div class="project-icon">
+                        🗂️
+                    </div>
+
+                    <h3>Custom Office Templates</h3>
+
+                    <p>
+                        My first completed website project.
+                    </p>
+
+                    <span class="project-status">
+                        ✓ Completed
+                    </span>
+
+                </div>
+
+
+                <div class="project-card">
+
+                    <div class="project-icon">
+                        🌌
+                    </div>
+
+                    <h3>LifeOS</h3>
+
+                    <p>
+                        Your personal digital life management system.
+                    </p>
+
+                    <span class="project-status">
+                        🔄 In Progress
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ACHIEVEMENTS ================= -->
+        <section class="achievement-section">
+
+            <p class="small-title">REWARDS</p>
+
+            <h2>🏆 Achievements</h2>
+
+            <div class="achievement-container">
+
+                <div class="achievement-card unlocked">
+                    <div>🌱</div>
+                    <h3>First Step</h3>
+                    <p>Started your LifeOS journey.</p>
+                </div>
+
+
+                <div class="achievement-card locked" id="achievement">
+                    <div>🔒</div>
+                    <h3>Mission Master</h3>
+                    <p>Complete your first mission.</p>
+                </div>
+
+
+                <div class="achievement-card locked">
+                    <div>🚀</div>
+                    <h3>Project Builder</h3>
+                    <p>Complete your first project.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <div class="footer-logo">
+            🌌 LifeOS
+        </div>
+
+        <p>
+            Build your life. One mission at a time.
+        </p>
+
+        <p class="copyright">
+            © 2026 LifeOS
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
